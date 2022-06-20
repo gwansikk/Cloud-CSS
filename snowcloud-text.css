@@ -1,5 +1,4 @@
 .title {
-    margin-top: 0;
     color: #193b68;
 }
 
@@ -17,4 +16,48 @@
 
 .text-highlight {
     color: #1479ff;
+}
+
+.text-big {
+    font-size: 3em;
+}
+
+.text-xxl {
+    font-size: xx-large;
+}
+
+.text-xl {
+    font-size: x-large;
+}
+
+.text-l {
+    font-size: large;
+}
+
+.text-m {
+    font-size: medium;
+}
+
+.text-s{
+    font-size: small;
+}
+
+.text-green {
+    background-color: rgb(210, 231, 221);
+}
+
+.text-red {
+    background-color: rgb(249, 215, 218);
+}
+
+.text-blue {
+    background-color: rgb(207, 226, 255);
+}
+
+.text-yellow {
+    background-color: rgb(255, 243, 205);
+}
+
+.text-gray {
+    background-color: rgb(212, 211, 212);
 }
