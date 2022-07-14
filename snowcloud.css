@@ -11,21 +11,10 @@
 @import 'snowcloud-utilities.css';
 @import 'snowcloud-text.css';
 
-/* Mobile */
-@media screen and (max-width: 768px) {
-    body {
-        max-width: 700px;
-    }
-}
-
-/* Desktop */
-@media screen and (min-width: 769px) {
-    body {
-        max-width: 800px;
-    }
-}
 
 body {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -33,23 +22,43 @@ body {
     background-color: rgba(8, 47, 100, 0.1);
 }
 
-td {
-    margin: 8px;
+
+
+.sky {
+    width: 100%;
 }
 
-h1, h2, h3, h4, h5 {
-    margin: 0;
-    margin-top: 2px;
-    margin-bottom: 2px;
+/* 모바일 */
+@media (min-width: 768px) {
+    .sky {
+        max-width: 640px;
+    }
+}
+
+/* 태블릿 */
+@media (min-width: 1024px) {
+    .sky {
+        max-width: 768px;
+    }
+}
+
+/* PC */
+@media (min-width: 1280px) {
+    .sky {
+        max-width: 1140px;
+    }
 }
 
 .cloud {
     margin: 20px;
     padding: 16px;
-    min-height: 60px;
     background-color: white;
     border-radius: 16px;
     box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar {
+    position: fixed;
 }
 
 .footer {

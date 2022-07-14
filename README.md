@@ -15,6 +15,6 @@ CDN - Close Alpha Test
 In Development
 
 ## 🔎 Preview
-![Logo](/src/test-text.png)
+![Logo](/src/pre-view.png)
 
 ## 💡 Copyright and License
