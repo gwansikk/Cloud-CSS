@@ -1,31 +1,48 @@
 /*
 - snowcloud.css
-    - snowcloud-desiigner
-    - snowcloud-utilities
-    - snowcloud-text
+    - ui : snowcloud-desiigner
+    - utilities : snowcloud-utilities
+    - text : snowcloud-writer
 */
 
 @charset 'utf-8';
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import 'snowcloud-desiigner.css';
 @import 'snowcloud-utilities.css';
-@import 'snowcloud-text.css';
+@import 'snowcloud-writer.css';
 
 
 body {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 0;
     font-family: "Noto Font KR", Arial, sans-serif;
     background-color: rgba(8, 47, 100, 0.1);
 }
 
-
+.earth {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 
 .sky {
     width: 100%;
+}
+
+.cloud {
+    margin: 20px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.footer {
+    display: table;
+    margin: auto;
 }
 
 /* 모바일 */
@@ -46,22 +63,14 @@ body {
 @media (min-width: 1280px) {
     .sky {
         max-width: 1140px;
+        flex-direction: row;
     }
 }
 
-.cloud {
-    margin: 20px;
-    padding: 16px;
-    background-color: white;
-    border-radius: 16px;
-    box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
+.row {
+    flex-direction: row;
 }
 
-.navbar {
-    position: fixed;
-}
-
-.footer {
-    display: table;
-    margin: auto;
+.col {
+    flex-direction: column;
 }

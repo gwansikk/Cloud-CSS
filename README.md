@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="150" src="/src/logo.png" alt="{Logo}"><br />
+    <img width="150" src="src/logo.png" alt="{Logo}"><br />
     <b>Snowcloud CSS</b>
     <br>
     하얀 눈구름 같이 맑고 깨끗한 UI/UX를 제공하는 프레임워크입니다.
