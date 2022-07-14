@@ -17,6 +17,11 @@ body {
     font-family: "Noto Font KR", Arial, sans-serif;
     background-color: rgba(8, 47, 100, 0.1);
 }
+.container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+} 
 
 .earth {
     width: 100%;
@@ -40,8 +45,7 @@ body {
 }
 
 .navbar {
-    position: sticky;
-    top: 10px;
+    width: 100%;
     margin: 20px;
     padding: 16px;
     background-color: white;
@@ -50,29 +54,32 @@ body {
 }
 
 .footer {
-    display: table;
-    margin: auto;
+    width: 100%;
+    margin: 20px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
 }
 
 /* 모바일 */
 @media (min-width: 768px) {
-    .earth {
+    .earth, .container{
         max-width: 768px;
     }
-
 }
 
 /* 태블릿 */
 @media (min-width: 1024px) {
-    .earth {
-        max-width: 768px;
+    .earth, .container{
+        max-width: 912px;
         flex-direction: row;
     }
 }
 
 /* PC */
 @media (min-width: 1280px) {
-    .earth {
+    .earth, .container{
         max-width: 1140px;
     }
 }
@@ -84,3 +91,4 @@ body {
 .col {
     flex-direction: column;
 }
+
