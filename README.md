@@ -8,17 +8,24 @@
 ## Snowcloud 1
 가볍고 빠르게 작동하고 쉽고 배워 적용할 수 있는 HTML, CSS, JavaScript 웹 프레임워크입니다. 모바일, 태블릿, PC 등 모든 디바이스를 지원하며 쉽게 Web Application 디자인을 설계할 수 있도록 개발중입니다.
 
-## 📚 Qucik start
-CDN
+## Documentation
+- [Status](#Status)
+- [Loadmap](#Loadmap)
+- [Guide](#Guide)
+- [Preview](#Preview)
+- [Thanks and Sponsors](#thanks-and-sponsors)
+- [Copyright and License](#Copyright-and-License)
 
-## 🚀 Loadmap
-- Input UI
-- Grid System
-- Dark Mode
-- UX Animation
+## Loadmap
+ * [ ] Input UI
+ * [ ] Grid System
+ * [ ] UX Animation
+ * [ ] Dark Mode
 
+## Guide
+CDN 준비중입니다.
 
-## 🔎 Preview
-![Logo](/src/pre-view.png)
+## Preview
+![pre](/src/pre-view.png)
 
-## 💡 Copyright and License
+## Copyright and License
