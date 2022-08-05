@@ -6,24 +6,30 @@
 </p>
 
 ## Snowcloud 1
-가볍고 빠르게 작동하고 쉽고 배워 적용할 수 있는 HTML, CSS, JavaScript 웹 프레임워크입니다. 모바일, 태블릿, PC 등 모든 디바이스를 지원하며 쉽게 Web Application 디자인을 설계할 수 있도록 개발중입니다.
+
+가볍고 빠르게 작동하고 쉽게 배워 적용할 수 있는 HTML, CSS, JavaScript 웹 프레임워크입니다. 모바일, 태블릿, PC 등 모든 디바이스를 지원하며 쉽게 Web Application 디자인을 설계할 수 있도록 개발중입니다.
 
 ## Documentation
+
 - [Loadmap](#Loadmap)
 - [Guide](#Guide)
 - [Preview](#Preview)
 - [Copyright and License](#Copyright-and-License)
 
 ## Loadmap
- * [ ] Input UI
- * [ ] Grid System
- * [ ] UX Animation
- * [ ] Dark Mode
 
-## Guide
-CDN : 
+- [ ] Input UI
+- [ ] Grid System
+- [ ] UX Animation
+- [ ] Dark Mode
+
+## Quick Start
+
+- CDN : 준비중
+- snowcloud.css 파일을 스타일시트로 추가합니다.
 
 ## Preview
+
 ![pre](/src/pre-view.png)
 
 ## Copyright and License
