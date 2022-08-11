@@ -30,6 +30,6 @@
 
 ## Preview
 
-![pre](/src/pre-view.png)
+![pre](/src/preview.png)
 
 ## Copyright and License
