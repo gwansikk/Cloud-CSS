@@ -13,7 +13,6 @@
 
 - [Loadmap](#Loadmap)
 - [Guide](#Guide)
-- [Preview](#Preview)
 - [Copyright and License](#Copyright-and-License)
 
 ## Loadmap
@@ -27,9 +26,5 @@
 
 - CDN : 준비중
 - snowcloud.css 파일을 스타일시트로 추가합니다.
-
-## Preview
-
-![pre](/src/preview.png)
 
 ## Copyright and License
