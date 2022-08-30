@@ -15,11 +15,11 @@
   border-collapse: collapse;
 }
 
-.table > thead {
+.table>thead {
   border-bottom: 2px solid black;
 }
 
-.table-even > tbody > tr:nth-child(even) {
+.table-even>tbody>tr:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -48,4 +48,22 @@ input {
   outline: none;
   padding-left: 10px;
   background-color: rgb(233, 233, 233);
+}
+
+.navbar {
+  width: 100%;
+  margin: 20px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.footer {
+  width: 100%;
+  margin: 20px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
 }
