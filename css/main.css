@@ -12,23 +12,35 @@ body {
   margin: auto;
 }
 
+.navbar-container {
+  margin: auto;
+  padding: 0 16px;
+}
+
+
 /* sm */
 @media (min-width: 640px) {
-  .container {
+
+  .container,
+  .navbar-container {
     max-width: 640px;
   }
 }
 
 /* md */
 @media (min-width: 768px) {
-  .container {
+
+  .container,
+  .navbar-container {
     max-width: 768px;
   }
 }
 
 /* lg */
 @media (min-width: 1024px) {
-  .container {
+
+  .container,
+  .navbar-container {
     max-width: 980px;
   }
 }

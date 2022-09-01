@@ -64,9 +64,6 @@ input {
 
 .footer {
   width: 100%;
-  margin: 20px;
-  padding: 16px;
+  height: 50vw;
   background-color: white;
-  border-radius: 16px;
-  box-shadow: 0 0rem 3rem rgba(0, 0, 0, 0.2) !important;
 }
