@@ -3,9 +3,9 @@
 
 body {
   margin: 0;
-  padding-top: 48px;
+  padding-top: 84px;
   font-family: "Noto Font KR", Arial, sans-serif;
-  background-color: aliceblue;
+  background-color: #f8f9fd;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
 
   .container,
   .navbar-container {
-    max-width: 980px;
+    max-width: 1024px;
   }
 }
 
@@ -56,4 +56,9 @@ body {
 .cloud:hover {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
+}
+
+.cloud-none {
+  margin: 20px;
+  padding: 16px;
 }
