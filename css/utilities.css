@@ -64,8 +64,7 @@ input {
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: wrap;
+
 }
 
 .footer {
