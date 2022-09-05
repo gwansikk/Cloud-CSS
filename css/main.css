@@ -61,7 +61,17 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.cloud-none {
+.navbar .cloud {
   margin: 20px;
-  padding: 16px;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.footer .cloud {
+  margin: 20px;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
 }
