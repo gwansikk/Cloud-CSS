@@ -61,6 +61,11 @@ input {
 
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .footer {
   width: 100%;
 }
