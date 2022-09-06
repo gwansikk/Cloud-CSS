@@ -169,11 +169,19 @@ button {
   width: 10%;
 }
 
+.md\:hidden {
+  visibility: hidden;
+}
+
 /* sm */
 @media (min-width: 640px) {}
 
 /* md */
 @media (min-width: 768px) {
+  .md\:hidden {
+    visibility: visible;
+  }
+
   .row {
     flex-wrap: nowrap;
   }
