@@ -9,22 +9,12 @@
 
 가볍고 빠르게 작동하고 쉽게 배워 적용할 수 있는 HTML, CSS, JavaScript 웹 프레임워크입니다. 모바일, 태블릿, PC 등 모든 디바이스를 지원하며 쉽게 Web Application 디자인을 설계할 수 있도록 개발중입니다.
 
-## Documentation
-
-- [Loadmap](#Loadmap)
-- [Guide](#Guide)
-- [Copyright and License](#Copyright-and-License)
-
-## Loadmap
-
-- [ ] Input UI
-- [ ] Grid System
-- [ ] UX Animation
-- [ ] Dark Mode
+- 모든 디바이스를 지원합니다.
+- 사람의 행동 패턴을 닮은 경험을 지향합니다.
 
 ## Quick Start
 
 - CDN : 준비중
-- snowcloud.css 파일을 스타일시트로 추가합니다.
 
-## Copyright and License
+1. 모든 파일을 다운받습니다.
+2. main index 파일에 snowcloud.css 파일을 스타일 시트로 추가합니다.
