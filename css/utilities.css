@@ -1,12 +1,12 @@
 /* 
 */
 
+
 .alert {
   margin: 6px;
   padding: 16px;
-  min-height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 .table {
@@ -58,12 +58,55 @@ input {
   background-color: rgb(233, 233, 233);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+:root {
+  --button-color: #ffffff;
+  --button-bg-color: #0d6efd;
+  --button-hover-bg-color: #025ce2;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background: var(--button-bg-color);
+  color: var(--button-color);
+
+  margin: 0;
+  padding: 0.5rem 1rem;
+
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  border: none;
+  border-radius: 4px;
+
+  display: inline-block;
+  width: auto;
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  cursor: pointer;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 64px;
   background-color: white;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 
@@ -72,11 +115,69 @@ input {
 .row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-content: stretch;
 }
 
 .footer {
   width: 100%;
   margin-bottom: 2rem;
 }
+
+.wrap-none {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.w-100\% {
+  width: 100%;
+}
+
+.w-90\% {
+  width: 90%;
+}
+
+.w-80\% {
+  width: 80%;
+}
+
+.w-70\% {
+  width: 70%;
+}
+
+.w-60\% {
+  width: 60%;
+}
+
+.w-50\% {
+  width: 50%;
+}
+
+.w-40\% {
+  width: 30%;
+}
+
+.w-30\% {
+  width: 30%;
+}
+
+.w-20\% {
+  width: 20%;
+}
+
+.w-10\% {
+  width: 10%;
+}
+
+/* sm */
+@media (min-width: 640px) {}
+
+/* md */
+@media (min-width: 768px) {
+  .row {
+    flex-wrap: nowrap;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {}

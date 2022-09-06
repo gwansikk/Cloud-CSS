@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding-top: 84px;
   font-size: 16px;
-  font-family: "Noto Font KR", Arial, sans-serif;
+  font-family: "Noto Sans KR", Arial, sans-serif;
   background-color: #f8f9fd;
 }
 
@@ -24,8 +24,7 @@ body {
 /* sm */
 @media (min-width: 640px) {
 
-  .container,
-  .navbar-container {
+  .container {
     max-width: 640px;
   }
 }
@@ -33,8 +32,7 @@ body {
 /* md */
 @media (min-width: 768px) {
 
-  .container,
-  .navbar-container {
+  .container {
     max-width: 768px;
   }
 }
@@ -42,8 +40,7 @@ body {
 /* lg */
 @media (min-width: 1024px) {
 
-  .container,
-  .navbar-container {
+  .container {
     max-width: 1024px;
   }
 }
@@ -62,12 +59,17 @@ body {
 }
 
 .navbar .cloud {
-  margin: 20px;
-  padding: 0;
+  height: 64px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: auto;
+  padding-right: auto;
   border-radius: 0;
   box-shadow: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer .cloud {
