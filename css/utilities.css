@@ -121,7 +121,8 @@ button {
 
 .footer {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: #d4d5d6;
 }
 
 .wrap-none {

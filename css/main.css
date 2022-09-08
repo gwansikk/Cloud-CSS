@@ -6,7 +6,7 @@ body {
   padding-top: 84px;
   font-size: 16px;
   font-family: "Noto Sans KR", Arial, sans-serif;
-  background-color: #f8f9fd;
+  background-color: #f8f9fa;
 }
 
 .container {
@@ -20,37 +20,12 @@ body {
   padding: 0 16px;
 }
 
-
-/* sm */
-@media (min-width: 640px) {
-
-  .container {
-    max-width: 640px;
-  }
-}
-
-/* md */
-@media (min-width: 768px) {
-
-  .container {
-    max-width: 768px;
-  }
-}
-
-/* lg */
-@media (min-width: 1024px) {
-
-  .container {
-    max-width: 1024px;
-  }
-}
-
 .cloud {
   margin: 1rem;
   padding: 1rem;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .cloud:hover {
@@ -78,4 +53,28 @@ body {
   border-radius: 0;
   box-shadow: none;
   background-color: transparent;
+}
+
+/* sm */
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 980px;
+  }
 }
