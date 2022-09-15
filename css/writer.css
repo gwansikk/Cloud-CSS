@@ -28,6 +28,10 @@
   color: #1479ff;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .text-big {
   font-size: 3em;
 }

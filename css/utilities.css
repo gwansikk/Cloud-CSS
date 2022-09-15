@@ -173,6 +173,15 @@ button {
   visibility: hidden;
 }
 
+.list-none {
+  list-style: none;
+  padding: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
 /* sm */
 @media (min-width: 640px) {}
 
