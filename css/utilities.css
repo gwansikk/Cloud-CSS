@@ -1,6 +1,11 @@
 /* 
 */
 
+.cloud-blue {
+  box-shadow: 0 0px 20px rgba(207,
+      226,
+      255, 1);
+}
 
 .alert {
   margin: 6px;
