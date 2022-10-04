@@ -1,10 +1,24 @@
 /* 
 */
 
-.cloud-blue {
-  box-shadow: 0 0px 20px rgba(207,
-      226,
-      255, 1);
+.border-green {
+  border: solid rgb(210, 231, 221);
+}
+
+.border-red {
+  border: solid rgb(249, 215, 218);
+}
+
+.border-blue {
+  border: solid rgb(207, 226, 255);
+}
+
+.border-yellow {
+  border: solid rgb(255, 243, 205);
+}
+
+.border-gray {
+  border: solid rgb(212, 211, 212);
 }
 
 .alert {
