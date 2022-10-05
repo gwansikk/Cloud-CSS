@@ -4,7 +4,9 @@
     <b>Snowcloud CSS</b>
     <br />
     <img src="https://img.shields.io/badge/license-GLPv3-blue"/>
-    <img src="https://img.shields.io/badge/build-v0.3.0-brightgreen"/>
+    <img src="https://img.shields.io/badge/build-v0.3.0 bata1-brightgreen"/><br>
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
+    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white"/>
     <p>하얀 눈구름 같이 맑고 깨끗한 UI/UX를 제공하는 프레임워크입니다.</p>
 
 </div>
@@ -33,7 +35,7 @@ https://static.gwansik.dev/snowcloudcss/snowcloud.css
 3. index 파일에 snowcloud.css 파일을 스타일 시트로 추가합니다.
 ```
 
-## Screenshot
+## Preview
 
 <div align="center">
     <img src="screenshot/example.png" alt="{example}">
