@@ -3,7 +3,7 @@
     <br />
     <b>Snowcloud CSS</b>
     <br />
-    <img src="https://img.shields.io/badge/license-GLPv3-blue"/>
+    <img src="https://img.shields.io/badge/license-GPLv3-blue"/>
     <img src="https://img.shields.io/badge/build-v0.3.0 bata1-brightgreen"/><br>
     <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
     <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white"/>
