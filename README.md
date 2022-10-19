@@ -21,13 +21,13 @@
 
 ## Installation
 
-- CSS : 파일 다운로드 없이 스타일시트 추가를 통해서 바로 설치합니다.
+- Style Sheet : 파일 다운로드 없이 스타일시트 추가하여 바로 사용할 수 있습니다.
 
 ```
-https://static.gwansik.dev/snowcloudcss/snowcloud.css
+<link href="https://static.gwansik.dev/snowcloudcss/snowcloud.css" rel="stylesheet"/>
 ```
 
-- 다운로드 : 컴퓨터에 다운로드하여 설치합니다.
+- Download : 컴퓨터에 다운로드하여 설치합니다.
 
 ```
 1. 우측 상단의 Code 버튼을 누르고 Download ZIP 버튼을 눌러 파일을 다운로드합니다.
