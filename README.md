@@ -35,7 +35,7 @@
 3. index 파일에 snowcloud.css 파일을 스타일 시트로 추가합니다.
 ```
 
-## Preview
+## Screenshot
 
 <div align="center">
     <img src="screenshot/example.png" alt="{example}">
