@@ -2,14 +2,13 @@
 
 /*
 - snowcloud.css
-    - main : 중요 설정
-    - designer : 색상 및 
+    - core : 중요 설정
+    - designer : 색상 
     - utilities : 네비바, 버튼, etc
     - writer : 텍스트와 관련된
 */
 
-@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import "./css/main.css";
+@import "./css/core.css";
 @import "./css/designer.css";
 @import "./css/utilities.css";
 @import "./css/writer.css";

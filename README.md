@@ -20,7 +20,7 @@
 
 ## Installation
 
-- CDN Link : 파일 다운로드 없이 스타일시트 추가하여 바로 사용할 수 있습니다.
+- Style Sheet : 파일 다운로드 없이 스타일시트 추가하여 바로 사용할 수 있습니다.
 
 ```
 <link href="https://gwansikk.github.io/SnowCloudCSS/snowcloud.css" rel="stylesheet"/>

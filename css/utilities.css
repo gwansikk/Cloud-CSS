@@ -121,25 +121,11 @@ button {
   cursor: pointer;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-
-}
-
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.footer {
-  width: 100%;
 }
 
 .wrap-none {
