@@ -130,7 +130,13 @@ button {
 
 .wrap-none {
   flex-wrap: nowrap;
-  overflow: auto;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.wrap-none::-webkit-scrollbar {
+  display: none;
 }
 
 .w-100\% {

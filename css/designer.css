@@ -46,6 +46,14 @@ td {
   position: fixed;
 }
 
+.w-50 {
+  width: 50px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
 .w-10p {
   width: 10%;
 }
