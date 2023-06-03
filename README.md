@@ -2,7 +2,7 @@
 <!-- markdownlint-disable MD041 -->
 
 <div align="center">
-    <img width="150" src="src/logo.png" alt="{Logo}">
+    <img width="100" src="src/logo.png" alt="{Logo}">
     <br />
     <b>Cloud CSS</b>
     <br />
@@ -27,7 +27,7 @@
 - Style Sheet : 파일 다운로드 없이 스타일시트를 추가하여 바로 사용할 수 있습니다.
 
 ```html
-<link href="https://gwansikk.github.io/Cloud-CSS/snowcloud.css" rel="stylesheet" />
+<link href="https://gwansikk.github.io/Cloud-CSS/cloud.css" rel="stylesheet" />
 ```
 
 - Download : 컴퓨터에 다운로드하여 설치합니다.
@@ -38,8 +38,8 @@
 3. index 파일에 snowcloud.css 파일을 스타일 시트로 추가합니다.
 ```
 
-## Screenshot
+## Preview
 
 <div align="center">
-    <img src="screenshot/example.png" alt="{example}">
+    <img src="screenshot/example.png" alt="main">
 </div>
