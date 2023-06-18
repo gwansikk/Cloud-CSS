@@ -2,8 +2,8 @@
 <!-- markdownlint-disable MD041 -->
 
 <div align="center">
-    <img width="100" src="src/logo.png" alt="{Logo}">
-    <br />
+<!--     <img width="100" src="src/logo.png" alt="{Logo}"> -->
+<!--     <br /> -->
     <b>Cloud CSS</b>
     <br />
     <img src="https://img.shields.io/badge/license-GPLv3-blue"/>
@@ -20,7 +20,7 @@
 
 - 새하얀 구름의 경관 그대로 담아 자연스러운 UI/UX를 제공합니다.
 - `Mobile First Design` 설계로 반응형을 통해서 쉽게 태블릿, 데스크톱 환경으로 쉽게 확장할 수 있습니다.
-- 복잡한 동작을 추상화하여 간단한 코드 삽입으로 쉽게 사용할 수 있습니다.
+- `Utility-first CSS Framework` 복잡한 동작을 추상화하여 간단한 코드 삽입으로 쉽게 사용할 수 있습니다.
 
 ## Installation
 
