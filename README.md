@@ -19,7 +19,7 @@
 Cloud-CSS는 가볍고 빠르게 작동하며 쉽게 배워 적용할 수 있는 HTML, CSS, JavaScript 웹 프레임워크입니다. 모바일, 태블릿, 데스크톱 등 모든 디바이스를 반응형으로 지원하며 쉽게 Web Application의 디자인을 설계할 수 있습니다.
 
 - 새하얀 구름의 경관을 그대로 담아 `자연스러운 UI/UX`를 제공합니다.
-- `Mobile First Design` 설계로 반응형을 통해서 쉽게 태블릿, 데스크톱 환경으로 쉽게 확장할 수 있습니다.
+- `Mobile First Design` 설계로 반응형을 통해서 쉽게 모바일, 태블릿, 데스크톱 환경으로 쉽게 확장할 수 있습니다.
 - `Utility-first CSS Framework` 복잡한 동작을 추상화하여 간단한 코드 삽입으로 쉽게 사용할 수 있습니다.
 
 ## Installation
