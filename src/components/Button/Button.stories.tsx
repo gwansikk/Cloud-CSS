@@ -10,9 +10,8 @@ const meta: Meta<typeof Button> = {
 export default meta;
 
 interface ArgsProps {
-  primary: boolean;
   disabled: boolean;
-  size?: "small" | "medium" | "large";
+  size?: "sm" | "md" | "lg";
   text: string;
 }
 
@@ -20,45 +19,34 @@ type Story = StoryObj<typeof Button>;
 
 export const Primary: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
 Primary.args = {
-  primary: true,
   disabled: false,
+  size: "sm",
   text: "Primary",
-};
-
-export const Secondary: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
-Secondary.args = {
-  primary: false,
-  disabled: false,
-  text: "Secondary",
 };
 
 export const Disabled: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
 Disabled.args = {
-  primary: false,
   disabled: true,
   text: "Disabled",
 };
 
 export const Small: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
 Small.args = {
-  primary: true,
   disabled: false,
-  size: "small",
+  size: "sm",
   text: "Small",
 };
 
 export const Medium: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
 Medium.args = {
-  primary: true,
   disabled: false,
-  size: "medium",
+  size: "md",
   text: "Medium",
 };
 
 export const Large: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
 Large.args = {
-  primary: true,
   disabled: false,
-  size: "large",
+  size: "lg",
   text: "Large",
 };
