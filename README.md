@@ -1,17 +1,9 @@
-<!-- markdownlint-disable MD033 -->
-<!-- markdownlint-disable MD041 -->
-
 <div align="center">
-<!--     <img width="100" src="src/logo.png" alt="{Logo}"> -->
-<!--     <br /> -->
     <b>Cloud CSS</b>
     <br />
-    <img src="https://img.shields.io/badge/license-GPLv3-blue"/>
-    <img src="https://img.shields.io/badge/build-v0.3.0%20beta1-brightgreen"/><br>
-    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white"/>
-    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=CSS3&logoColor=white"/>
-    <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"/>
+    <img src="https://img.shields.io/badge/build-0.1.0-brightgreen"/><br>
     <p>새하얀 구름 같이 청량한 경험을 제공하는 웹 프레임워크입니다.</p>
+
 </div>
 
 ## Concepts
@@ -37,9 +29,3 @@ Cloud-CSS는 가볍고 빠르게 작동하며 쉽게 배워 적용할 수 있는
 2. 본인이 작업하는 파일에 다운로드 한 파일을 복사합니다.
 3. main 파일에 snowcloud.css 파일을 스타일 시트로 추가합니다.
 ```
-
-## Preview
-
-<div align="center">
-    <img src="screenshot/example.png" alt="main">
-</div>
