@@ -1,17 +1,35 @@
-name: CI
+name: CI and Storybook Deployment
 
 on: [push, pull_request]
 
 jobs:
-  test:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '20'
-    - name: Install dependencies
-      run: npm install
-    - name: Run Jest
-      run: npm run test
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
+
+  deploy-storybook:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "20"
+      - name: Build Storybook
+        run: npm run build-storybook
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # 배포할 브랜치
+          folder: storybook-static # Storybook 빌드 디렉토리
