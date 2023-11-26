@@ -7,7 +7,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)  
 [![hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgwansikk%2FGooreumUI&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-![passing](https://img.shields.io/badge/test-passing-brightgreen?logo=github)
+![ci](https://github.com/gwansikk/GooreumUI/actions/workflows/ci.yml/badge.svg)
 
 </div>
 
