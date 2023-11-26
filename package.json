@@ -1,6 +1,6 @@
 {
   "name": "@gooreumui/react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React component library offering an experience as refreshing as white clouds.",
   "homepage": "https://github.com/gwansikk/GooreumUI",
   "author": "gwansikk",
@@ -53,5 +53,13 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "18.2.0"
-  }
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "next",
+    "remix",
+    "react components",
+    "react components library"
+  ]
 }
