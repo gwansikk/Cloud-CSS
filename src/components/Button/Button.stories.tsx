@@ -9,44 +9,63 @@ const meta: Meta<typeof Button> = {
 };
 export default meta;
 
-interface ArgsProps {
+interface ArgsInterface {
   disabled: boolean;
-  size?: "sm" | "md" | "lg";
+  state?: "light" | "dark" | "success" | "error" | "warning";
+  size?: "sm" | "md" | "lg" | "full";
   text: string;
 }
 
 type Story = StoryObj<typeof Button>;
 
-export const Primary: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
-Primary.args = {
+export const Light: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
+Light.args = {
+  text: "Light Button",
   disabled: false,
-  size: "sm",
-  text: "Primary",
+  state: "light",
+  size: "md",
 };
 
-export const Disabled: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
+export const Dark: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
+Dark.args = {
+  text: "Light Button",
+  disabled: false,
+  state: "dark",
+  size: "md",
+};
+
+export const Disabled: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
 Disabled.args = {
+  text: "Disabled Button",
   disabled: true,
-  text: "Disabled",
+  state: "light",
+  size: "md",
 };
 
-export const Small: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
+export const Small: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
 Small.args = {
+  text: "Small Button",
   disabled: false,
   size: "sm",
-  text: "Small",
 };
 
-export const Medium: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
+export const Medium: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
 Medium.args = {
+  text: "Medium Button",
   disabled: false,
   size: "md",
-  text: "Medium",
 };
 
-export const Large: Story = (args: ArgsProps) => <Button data-testId="InputField-id" {...args} />;
+export const Large: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
 Large.args = {
+  text: "Large Button",
   disabled: false,
   size: "lg",
-  text: "Large",
+};
+
+export const Full: Story = (args: ArgsInterface) => <Button data-testId="InputField-id" {...args} />;
+Full.args = {
+  text: "Large Button",
+  disabled: false,
+  size: "full",
 };
