@@ -4,7 +4,7 @@
   "description": "A React component library offering an experience as refreshing as white clouds.",
   "homepage": "https://github.com/gwansikk/GooreumUI",
   "author": "gwansikk",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gwansikk/GooreumUI.git"
