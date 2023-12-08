@@ -4,7 +4,7 @@
 <b>새하얀 구름 같이 청량한 경험을 제공하는 리액트 컴포넌트 라이브러리 입니다.</b>
 
 [![npm version](https://img.shields.io/npm/v/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
-[![npm downloads](https://img.shields.io/npm/dm/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
+[![npm downloads](https://img.shields.io/npm/dt/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)  
 [![hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgwansikk%2FGooreumUI&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ![ci](https://github.com/gwansikk/GooreumUI/actions/workflows/ci.yml/badge.svg)
