@@ -22,6 +22,9 @@ GooreumUI는 가볍고 빠르게 작동하며 쉽게 배워 적용할 수 있는
 
 ## Installation
 
+> [!IMPORTANT]\
+> This version is in the early stages of development, and as such, there may be frequent changes to the code and features.
+
 - NPM
 
 ```bash
