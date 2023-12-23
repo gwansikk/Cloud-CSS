@@ -1,9 +1,13 @@
-import { MouseEventHandler } from "react";
+import { MouseEventHandler, ReactNode } from "react";
+import { GlobalTypeActivate, GlobalTypeColor, GlobalTypeSize } from "../../types";
 
 export interface ButtonProps {
+  color?: GlobalTypeColor;
+  status?: GlobalTypeActivate;
+  size?: GlobalTypeSize;
+  fullWidth?: boolean;
+  fullHeight?: boolean;
   text?: string;
-  disabled?: boolean;
-  state?: "light" | "dark" | "success" | "error" | "warning";
-  size?: "sm" | "md" | "lg" | "full";
   onClick?: MouseEventHandler<HTMLButtonElement>;
+  children?: ReactNode;
 }

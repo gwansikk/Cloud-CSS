@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import styled from "@emotion/styled";
 import { ButtonProps } from "./Button.types";
-import { backgroundColor, padding } from "../../styles";
+import { globalStyleColor, globalStylePadding } from "../../styles";
 
 const StyledButton = styled.button<ButtonProps>`
   border: 0;
@@ -12,17 +12,23 @@ const StyledButton = styled.button<ButtonProps>`
   border-radius: 7px;
   display: inline-block;
   color: white;
-  background-color: ${({ state }) => backgroundColor[state || "light"]};
-  width: ${({ size }) => (size === "full" ? "100%" : "")};
-  height: ${({ size }) => (size === "full" ? "100%" : "")};
-  padding: ${({ size }) => padding[size || "md"]};
+  background-color: ${({ color = "light" }) => globalStyleColor[color]};
+  width: ${({ fullWidth }) => (fullWidth ? "100%" : "")};
+  height: ${({ fullHeight }) => (fullHeight ? "100%" : "")};
+  padding: ${({ size = "md" }) => globalStylePadding[size]};
   opacity: ${({ disabled }) => (disabled ? 0.6 : 1)};
 `;
 
-const Button: React.FC<ButtonProps> = ({ size, disabled, text, onClick, ...props }) => {
+const Button: FC<ButtonProps> = ({ size, status, text, onClick, children, ...props }) => {
   return (
-    <StyledButton type="button" onClick={onClick} disabled={disabled} size={size} {...props}>
-      {text}
+    <StyledButton
+      type="button"
+      onClick={onClick}
+      disabled={status === "disabled"}
+      size={size}
+      {...props}
+    >
+      {text || children}
     </StyledButton>
   );
 };
