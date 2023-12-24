@@ -16,7 +16,7 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "test": "jest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
