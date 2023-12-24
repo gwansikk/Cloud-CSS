@@ -1,12 +1,11 @@
 import { ChangeEventHandler } from "react";
+import { GlobalTypeActivate, GlobalTypeStatus } from "../../types";
 
-export interface InputProps {
+export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  label?: string;
-  error?: boolean;
-  message?: string;
-  success?: boolean;
-  disabled?: boolean;
   placeholder?: string;
+  label?: string;
+  message?: string;
+  status?: GlobalTypeActivate | GlobalTypeStatus;
   onChange?: ChangeEventHandler<HTMLInputElement>;
 }
