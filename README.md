@@ -6,8 +6,8 @@
 [![npm version](https://img.shields.io/npm/v/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
 [![npm downloads](https://img.shields.io/npm/dt/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)  
-[![hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgwansikk%2FGooreumUI&count_bg=%2379C83D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-![ci](https://github.com/gwansikk/GooreumUI/actions/workflows/ci.yml/badge.svg)
+[![CI and Storybook](https://github.com/gwansikk/GooreumUI/actions/workflows/CI-and-Storybook.yml/badge.svg?branch=master)](https://github.com/gwansikk/GooreumUI/actions/workflows/CI-and-Storybook.yml)
+[![pages-build-deployment](https://github.com/gwansikk/GooreumUI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gwansikk/GooreumUI/actions/workflows/pages/pages-build-deployment)
 
 </div>
 
@@ -20,7 +20,7 @@ GooreumUI는 가볍고 빠르게 작동하며 쉽게 배워 적용할 수 있는
 - `Mobile First Design` 설계로 반응형을 통해서 쉽게 모바일, 태블릿, 데스크톱 환경으로 쉽게 확장할 수 있습니다.
 - 복잡한 동작을 추상화하여 쉽게 `개인화(Custom)` 할 수 있으며, 재사용하기 편리합니다.
 
-## Installation
+## Getting Started
 
 > [!IMPORTANT]\
 > This version is in the early stages of development, and as such, there may be frequent changes to the code and features.
@@ -39,6 +39,74 @@ yarn add @gooreumui/react
 
 ## Components
 
-| <img alt="Button" src=""> | <img alt="Input" src=""> | <img alt="Card" src=""> |
-| :-----------------------: | :----------------------: | :---------------------: |
-|          Button           |          Input           |          Card           |
+<table>
+  <tr>
+    <td width="33.3333%">Accordion</td>
+    <td width="33.3333%">Alert</td>
+    <td width="33.3333%">Avatar</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Badge</td>
+    <td width="33.3333%">Breadcrumbs</td>
+    <td width="33.3333%">Button</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Card</td>
+    <td width="33.3333%">Checkbox</td>
+    <td width="33.3333%">Collapse</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Carousel</td>
+        <td width="33.3333%">Dialog</td>
+    <td width="33.3333%">Drawer</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%">Input</td>
+    <td width="33.3333%">Form</td>
+    <td width="33.3333%">List</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+    <td width="33.3333%" style="padding: 0;">
+    </td>
+  </tr>
+</table>
+
+## Contribute
+
+Information describing how to contribute can be found in the file CONTRIBUTING.md
