@@ -1,4 +1,4 @@
-name: CI and Storybook Deployment
+name: CI and Storybook
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-  deploy-storybook:
+  build-storybook:
     needs: build-and-test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master' && github.event_name == 'push'
@@ -30,11 +30,11 @@ jobs:
         with:
           node-version: "20"
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Build Storybook
         run: npm run build-storybook
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
-          folder: ./storybook-static
+          folder: storybook-static
