@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>☁️ GooreumUI</h1>
-<p>A React component library offering an experience as refreshing as white clouds.</p>
+<p><b>A React component library offering an experience as refreshing as white clouds.</b></p>
 
 [![npm version](https://img.shields.io/npm/v/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
 [![npm downloads](https://img.shields.io/npm/dt/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
@@ -9,13 +9,11 @@
 [![CI and Storybook](https://github.com/gwansikk/GooreumUI/actions/workflows/CI-and-Storybook.yml/badge.svg?branch=master)](https://github.com/gwansikk/GooreumUI/actions/workflows/CI-and-Storybook.yml)
 [![pages-build-deployment](https://github.com/gwansikk/GooreumUI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gwansikk/GooreumUI/actions/workflows/pages/pages-build-deployment)
 
-[🇺🇸 English](./README.md)
+[English](./README.md)
 &nbsp;&nbsp;•&nbsp;&nbsp;
-[🇰🇷 한국어](./README-ko_kr.md)
+[한국어](./README-ko_kr.md)
 
 </div>
-
-## Concepts
 
 GooreumUI is a `React Component Library` that is lightweight, fast, and easy to learn and apply.  
 It supports responsive design for all devices including mobile, tablet, and desktop, making it easy to design the layout of `Web Applications`.
@@ -111,7 +109,7 @@ yarn add @gooreumui/react
   </tr>
 </table>
 
-## Contribute
+## Contributing
 
 Information describing how to contribute can be found in the file.  
 [CONTRIBUTING.md](./CONTRIBUTING.md)

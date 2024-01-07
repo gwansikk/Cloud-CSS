@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>☁️ GooreumUI</h1>
-<p>새하얀 구름 같이 청량한 경험을 제공하는 리액트 컴포넌트 라이브러리 입니다.</p>
+<p><b>새하얀 구름 같이 청량한 경험을 제공하는 리액트 컴포넌트 라이브러리 입니다.</b></p>
 
 [![npm version](https://img.shields.io/npm/v/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
 [![npm downloads](https://img.shields.io/npm/dt/@gooreumui/react?logo=npm)](https://www.npmjs.com/package/@gooreumui/react)
@@ -9,13 +9,11 @@
 [![CI and Storybook](https://github.com/gwansikk/GooreumUI/actions/workflows/CI-and-Storybook.yml/badge.svg?branch=master)](https://github.com/gwansikk/GooreumUI/actions/workflows/CI-and-Storybook.yml)
 [![pages-build-deployment](https://github.com/gwansikk/GooreumUI/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gwansikk/GooreumUI/actions/workflows/pages/pages-build-deployment)
 
-[🇺🇸 English](./README.md)
+[English](./README.md)
 &nbsp;&nbsp;•&nbsp;&nbsp;
-[🇰🇷 한국어](./README-ko_kr.md)
+[한국어](./README-ko_kr.md)
 
 </div>
-
-## Concepts
 
 GooreumUI는 가볍고 빠르게 작동하며 쉽게 배워 적용할 수 있는 `React Component Library` 입니다.  
 모바일, 태블릿, 데스크톱 등 모든 디바이스를 반응형으로 지원하며 쉽게 `Web Application`의 디자인을 설계할 수 있습니다.
@@ -111,7 +109,7 @@ yarn add @gooreumui/react
   </tr>
 </table>
 
-## Contribute
+## Contributing
 
 해당 프로젝트에 기여하고 싶다면 아래 문서를 참고해주세요.  
 [CONTRIBUTING.md](./CONTRIBUTING.md)
