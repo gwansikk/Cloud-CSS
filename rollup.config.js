@@ -1,11 +1,11 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import typescript from '@rollup/plugin-typescript'
 import dts from 'rollup-plugin-dts';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import alias from '@rollup/plugin-alias';
 import terser from '@rollup/plugin-terser';
 import path from 'path';
-import typescript from 'rollup-plugin-typescript2';
 
 const packageJson = require('./package.json');
 
@@ -46,8 +46,8 @@ export default [
     external: ['react', 'react-dom', 'emotion'],
   },
   {
-    input: 'src/index.ts',
-    output: [{ file: 'dist/types.d.ts', format: 'esm' }],
+    input: 'dist/esm/types/index.d.ts',
+    output: [{ file: 'dist/index.d.ts', format: 'esm' }],
     plugins: [
       alias({
         entries: [
