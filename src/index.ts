@@ -1,5 +1,3 @@
-import GooreumProvider from './GooreumProvider';
-import Button from '@components/Button/Button';
-import Input from '@components/Input/Input';
-
-export { GooreumProvider, Button, Input };
+export * from './components';
+export { default as theme } from './styles/theme';
+export { default as GooreumProvider } from './GooreumProvider';
