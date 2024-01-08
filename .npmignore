@@ -1,6 +1,6 @@
 node_modules/
 .github
-.stoybook
+.storybook
 coverage
 src/
 .prettierrc
