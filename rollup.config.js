@@ -47,7 +47,21 @@ export default [
   },
   {
     input: 'src/index.ts',
-    output: [{ file: 'dist/types.d.ts', format: 'es' }],
-    plugins: [dts.default()],
+    output: [{ file: 'dist/types.d.ts', format: 'esm' }],
+    plugins: [
+      alias({
+        entries: [
+          { find: '@', replacement: path.resolve(__dirname, 'src') },
+          { find: '@assets', replacement: path.resolve(__dirname, 'src/assets') },
+          { find: '@components', replacement: path.resolve(__dirname, 'src/components') },
+          { find: '@constants', replacement: path.resolve(__dirname, 'src/constants') },
+          { find: '@hooks', replacement: path.resolve(__dirname, 'src/hooks') },
+          { find: '@styles', replacement: path.resolve(__dirname, 'src/styles') },
+          { find: '@type', replacement: path.resolve(__dirname, 'src/types') },
+          { find: '@utils', replacement: path.resolve(__dirname, 'src/utils') },
+        ],
+      }),
+      dts.default(),
+    ],
   },
 ];

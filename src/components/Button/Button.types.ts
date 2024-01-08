@@ -1,5 +1,5 @@
 import { MouseEventHandler, ReactNode } from 'react';
-import type { GlobalTypeActivate, GlobalTypeColor, GlobalTypeSize } from '@type/globalTypes';
+import type { GlobalTypeActivate, GlobalTypeColor, GlobalTypeSize } from '@type/index';
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   color?: GlobalTypeColor;
