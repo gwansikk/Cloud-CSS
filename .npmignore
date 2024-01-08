@@ -1,8 +1,9 @@
+node_modules/
 .github
 .stoybook
 coverage
 src/
-.prettierrc.json
+.prettierrc
 jest.config.js
 rollup.config.js
 tsconfig.json
