@@ -10,9 +10,20 @@
     "sourceMap": true,
     "outDir": "dist",
     "moduleResolution": "node",
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@assets/*": ["src/assets/*"],
+      "@components/*": ["src/components/*"],
+      "@constants/*": ["src/constants/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@styles/*": ["src/styles/*"],
+      "@type/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"]
+    }
   },
   "exclude": ["dist", "node_modules", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
 }
