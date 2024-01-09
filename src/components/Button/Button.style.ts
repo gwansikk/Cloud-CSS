@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import theme from '@styles/theme';
 import { ButtonProps } from './Button.types';
 
 export const StyledButton = styled.button<ButtonProps>`
@@ -10,9 +11,9 @@ export const StyledButton = styled.button<ButtonProps>`
   border-radius: 7px;
   display: inline-block;
   color: white;
-  background-color: ${({ color = 'light', theme }) => theme.color[color]};
+  background-color: ${({ color = 'light' }) => theme.color[color]};
   width: ${({ fullWidth }) => (fullWidth ? '100%' : 'auto')};
   height: ${({ fullHeight }) => (fullHeight ? '100%' : 'auto')};
-  padding: ${({ size = 'md', theme }) => theme.padding[size]};
+  padding: ${({ size = 'md' }) => theme.padding[size]};
   opacity: ${({ disabled }) => (disabled ? 0.6 : 1)};
 `;
