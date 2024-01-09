@@ -7,20 +7,20 @@ import alias from '@rollup/plugin-alias';
 import terser from '@rollup/plugin-terser';
 import path from 'path';
 
-const packageJson = require('./package.json');
+const pkg = require('./package.json');
 
 export default [
   {
     input: 'src/index.ts',
     output: [
       {
-        file: packageJson.main,
+        file: pkg.main,
         format: 'cjs',
         sourcemap: true,
       },
       {
-        file: packageJson.module,
-        format: 'esm',
+        file: pkg.module,
+        format: 'es',
         sourcemap: true,
       },
     ],
@@ -47,7 +47,7 @@ export default [
   },
   {
     input: 'dist/esm/types/index.d.ts',
-    output: [{ file: 'dist/index.d.ts', format: 'esm' }],
+    output: [{ file: 'dist/index.d.ts', format: 'es' }],
     plugins: [
       alias({
         entries: [
